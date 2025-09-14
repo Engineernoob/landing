@@ -67,6 +67,36 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Testimonials */}
+      <section className="py-20 px-6 bg-white">
+        <h2 className="text-3xl font-semibold text-center mb-12">
+          What People Are Saying
+        </h2>
+        <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto">
+          <Card className="p-6">
+            <p className="text-slate">
+              "Veriscope transformed our compliance process. It's seamless and
+              reliable."
+            </p>
+            <p className="font-semibold mt-4">– Alex Johnson</p>
+          </Card>
+          <Card className="p-6">
+            <p className="text-slate">
+              "The audit-ready reports saved us countless hours and gave us
+              peace of mind."
+            </p>
+            <p className="font-semibold mt-4">– Priya Singh</p>
+          </Card>
+          <Card className="p-6">
+            <p className="text-slate">
+              "A must-have tool for any AI-driven company aiming for
+              compliance."
+            </p>
+            <p className="font-semibold mt-4">– Michael Lee</p>
+          </Card>
+        </div>
+      </section>
+
       {/* Call to Action */}
       <section className="bg-primary text-primary-foreground py-20 px-6 text-center">
         <h2 className="text-3xl font-semibold mb-6">
