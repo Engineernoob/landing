@@ -13,6 +13,7 @@ export function Navbar() {
     { href: "/faq", label: "FAQ" },
     { href: "/privacy", label: "Privacy" },
     { href: "/terms", label: "Terms" },
+    { href: "/contact", label: "Contact" },
   ];
 
   return (

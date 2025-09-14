@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Veriscope – The Audit & Compliance Layer for AI",
+  title: "Veriscope",
   description:
     "Veriscope captures every AI interaction and turns it into audit-ready evidence.",
   openGraph: {
