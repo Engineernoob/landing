@@ -19,7 +19,7 @@ export default function Home() {
           <Badge variant="secondary">EU AI Act</Badge> &{" "}
           <Badge variant="secondary">NIST RMF</Badge> — automatically.
         </p>
-        <div className="mt-8 w-full max-w-md">
+        <div className="mt-7 w-full max-w-md">
           <WaitlistForm />
         </div>
       </section>
